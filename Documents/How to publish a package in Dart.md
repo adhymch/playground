@@ -4,6 +4,7 @@ Semenjak rencana kita bakal pakai Dart untuk implementasi, berikut adalah cara u
 untuk mempublish package dalam Dart menggunankan Pub. Pub ini adalah platform yang digunakan di lingkungan Dart, berfungsi untuk berbagi atau menggunakan package dari sebuah sistem ke sistem yang lain.
 
 Pub ini fungsinya sama seperti Maven bagi programmer java yang sudah sering menggunakan. Bagi yang belum pernah, perhatikan analogi berikut ini:
+
 Dalam sebuah kelompok survey yang terdiri dari 3 orang (A,B,C), meneliti tentang pekerjaan impian di kota Buah. Kota Buah terdiri atas 2 distrik yaitu Pisang dan Jeruk.
 A bertugas mencari survey di distrik Pisang, B bertugas mencari survey di distrik Jeruk, sedangkan C bertugas buat ngeprint hasil survey hehe, canda. C bertugas untuk menyimpulkan hasil survey kedua distrik di kota Buah.
 untuk dapat menyimpulkan hasil survey C perlu mengetahui hasil dari A dan B oleh karena itu A dan B membagi hasil survey mereka melalui google drive. Setelah mengetahui hasil dari A dan B maka C bisa menyimpulkan hasil survey mereka.
@@ -55,12 +56,13 @@ mengenai penjelas lengkap field pada pubspec disarankan menuju link resmi pubspe
 ### Direktori lib
 Kode dari fungsi/librari bertempat di bawah direktori lib dan bersifat publik untuk package atau sistem lain.
 Kita dapat membuat hierarki apa pun di bawah direktori lib, sesuai kebutuhan. Sesuai ketentuan, implementasi kode ditempatkan di bawah lib / src. 
-Kode di bawah lib / src bersifat private; package/sistem lain seharusnya tidak perlu mengimport src / .... Untuk membuat API di bawah lib / src publik, kita dapat mengekspor file lib / src dari file yang langsung di bawah lib.
-untuk penjelasan resmin yang lebih detail disarankan untuk mengunjungi link berikut:
+Kode di bawah lib / src bersifat private; package/sistem lain seharusnya tidak perlu mengimport src / .... 
+Untuk membuat API di bawah lib / src publik, kita dapat mengekspor file lib / src dari file yang langsung di bawah lib.
+untuk penjelasan resmin yang lebih detail disarankan untuk mengunjungi link berikut tentang:
 [package direktori](https://www.dartlang.org/guides/libraries/create-library-packages)
 
 
-## Mempublish package Pub
+## Mempublish package menggunankan Pub
 Sebelum mempublish sebuah package pastikan format pubspec yang digunakan sudah benar sesuai ketentuan. Beberapa ketentuan perlu diikuti agar package kita bisa digunakan dan mudah dimengerti oleh pengguna package yang kita publish.
 Ada kebutuhan tambahan ketika akan mempublish package kita. diantaranya:
 * Menyertakan file lisensi (lisensi, hak cipta) yang mengandung open-source licence. Dart menyarankan menggunakan [BSD-License](http://opensource.org/licenses/BSD-2-Clause).
