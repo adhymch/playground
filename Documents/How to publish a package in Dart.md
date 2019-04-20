@@ -9,8 +9,8 @@ Dalam sebuah kelompok survey yang terdiri dari 3 orang (A,B,C), meneliti tentang
 A bertugas mencari survey di distrik Pisang, B bertugas mencari survey di distrik Jeruk, sedangkan C bertugas buat ngeprint hasil survey hehe, canda. C bertugas untuk menyimpulkan hasil survey kedua distrik di kota Buah.
 untuk dapat menyimpulkan hasil survey C perlu mengetahui hasil dari A dan B oleh karena itu A dan B membagi hasil survey mereka melalui google drive. Setelah mengetahui hasil dari A dan B maka C bisa menyimpulkan hasil survey mereka.
 
-Berdasarkan ilustrasi diatas, bayangkan A,B,C sebagai sistem yang berdiri sendiri dari satu dengan yang lainnya. A dan B ingin berbagi fungsi mereka dengan C karena C untuk melakukan fungsi sistemnya membutuhkan apa yang dimiliki A dan B.
-Olehkarena itu A dan B mempublish fungsi mereka dalam bentuk package kedalam sebuah platform (google drive). platform berbagi fungsi inilah adalah Pub atau Maven dalam dunia Java.
+Berdasarkan ilustrasi diatas, bayangkan A,B,C sebagai sistem yang berdiri sendiri dari satu dengan yang lainnya. A dan B ingin berbagi fungsi mereka dengan C, karena C untuk melakukan fungsi sistemnya membutuhkan apa yang dimiliki A dan B.
+Olehkarena itu A dan B mempublish fungsi mereka dalam bentuk package melalui sebuah platform (google drive). platform berbagi fungsi inilah adalah Pub atau Maven dalam dunia Java.
 
 ## Apa itu Pub:
 
