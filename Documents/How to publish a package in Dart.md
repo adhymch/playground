@@ -1,4 +1,4 @@
-## Konsep:
+## Konsep
 
 Semenjak rencana kita bakal pakai Dart untuk implementasi, berikut adalah cara untuk mempublish package Dart yang udah kita buat sehingga bisa dikonsumsi module/sistem lain yang terlibat dalam sistem aplikasi kita.
 untuk mempublish package dalam Dart menggunankan Pub. Pub ini adalah platform yang digunakan di lingkungan Dart, berfungsi untuk berbagi atau menggunakan package dari sebuah sistem ke sistem yang lain.
@@ -12,7 +12,7 @@ untuk dapat menyimpulkan hasil survey C perlu mengetahui hasil dari A dan B oleh
 Berdasarkan ilustrasi diatas, bayangkan A,B,C sebagai sistem yang berdiri sendiri dari satu dengan yang lainnya. A dan B ingin berbagi fungsi mereka dengan C, karena C untuk melakukan fungsi sistemnya membutuhkan apa yang dimiliki A dan B.
 Olehkarena itu A dan B mempublish fungsi mereka dalam bentuk package melalui sebuah platform (google drive). platform berbagi fungsi inilah adalah Pub atau Maven dalam dunia Java.
 
-## Apa itu Pub:
+## Apa itu Pub?
 
 Secara singkat, Pub adalah tools untuk mengelolah Dart package. Dart package merupakan sebuah direktori yang berisi file pubspec. Pubspec berisi beberapa metadata tentang package tersebut. 
 Selain itu, package dapat berisi dependensi (terdaftar di pubspec), Dart library, command-line apps, aplikasi web, resource, tes, gambar, atau lainnya. Jika sebuah aplikasi menggunakan satu package atau lebih, maka aplikasi itu sendiri harus berupa package.
