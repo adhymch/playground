@@ -17,6 +17,7 @@ Secara singkat, Pub adalah tools untuk mengelolah Dart package. Dart package mer
 Selain itu, package dapat berisi dependensi (terdaftar di pubspec), Dart library, command-line apps, aplikasi web, resource, tes, gambar, atau lainnya. Jika sebuah aplikasi menggunakan satu package atau lebih, maka aplikasi itu sendiri harus berupa package.
 
 ![simple pubspec](https://user-images.githubusercontent.com/28759060/56457244-ea1a7e00-63a1-11e9-80e3-86d6ace505f2.png)
+
 sebuah package paling minimun terdapat lib direktori dan pubspec directori.
 
 ### File pubspec:
