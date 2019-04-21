@@ -47,7 +47,7 @@ and then search 'Dart'. Once you've installed the Dart plugin, restart the IDE.
   * Dart
   * Pubspec Assist
   * Flutter
-* Create new project and then create a pubspec.yaml file (file name shoud be pubspec).
+* Create new project and then create a pubspec.yaml file (file name should be pubspec).
 ```
 name: macsetup
 description: this is my first dart app
