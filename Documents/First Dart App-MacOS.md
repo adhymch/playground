@@ -40,7 +40,7 @@ and then search 'Dart'. Once you've installed the Dart plugin, restart the IDE.
   * From the Welcome screen, click Create New Project.
   * In the next dialog, click Dart.
   * Check **'Generate sample content'** box and choose **console application**
-* write ``` print("hello, world!") ``` in your main class and then run your Dart project.
+* Write ``` print("hello, world!") ``` in your main class and then run your Dart project.
 ## 3. Using Visual Studio Code
 * Go to this [link](https://code.visualstudio.com/download) to download Visual Studio Code, select Mac.
 * Go to extension menu and search for Dart, in the list of resulst install:
