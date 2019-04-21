@@ -33,7 +33,7 @@ $ brew info dart
 ```
 The command output lists the latest stable and dev versions at the top, followed by your locally installed versions.
 ## 2. Using IntelliJ IDEA
-* Go to this [link](https://www.jetbrains.com/idea/download/#section=mac) to download Intellij IDEA if you don't have one.
+* Go to this [link](https://www.jetbrains.com/idea/download/#section=mac) to download Intellij IDEA if you don't have one. Then install the IDE.
 * Start the IDE, and install the Dart plugin. To find the Dart plugin, go to Configure > Plugins, then click Install JetBrains plugin, 
 and then search 'Dart'. Once you've installed the Dart plugin, restart the IDE.
 * Create a new Dart project:
@@ -42,7 +42,7 @@ and then search 'Dart'. Once you've installed the Dart plugin, restart the IDE.
   * Check **'Generate sample content'** box and choose **console application**
 * Write ``` print("hello, world!") ``` in your main class and then run your Dart project.
 ## 3. Using Visual Studio Code
-* Go to this [link](https://code.visualstudio.com/download) to download Visual Studio Code, select Mac.
+* Go to this [link](https://code.visualstudio.com/download) to download Visual Studio Code, select Mac. Then install the app.
 * Go to extension menu and search for Dart, in the list of resulst install:
   * Dart
   * Pubspec Assist
