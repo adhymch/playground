@@ -1,7 +1,7 @@
 # [Avengers Initiative]
 This project is dedicated to all of our friends 'the job seeker' especially the freshgrad. Cheers!!
 
-## 1. Getting Started
+## Getting Started
 
 Documentation of this. See deployment for notes on how to deploy the project on a live system.
 
